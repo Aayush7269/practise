@@ -1,0 +1,80 @@
+
+{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    color: aqua;
+}
+
+#Profile{
+    background-color: ;
+}
+.user-profile{
+    font-size: 40px;
+}
+/*attribute*/
+[id],[]{
+    background-color:;
+}
+[href="contact-us.html"]{
+    color: black;
+}
+/*pseudo-element selector*/
+div::first-line{
+    color: red;
+}
+div::selection{
+background-color: greenyellow ;
+}
+div::selection{
+    background-color: yellow;
+    color: green;
+}div::before{
+    content: 
+}
+
+/*pseudo-class selector*/
+a:hover{
+    background-color: black;
+    color: azure;
+}
+h1:hover{
+    background-color: black ;
+    color:red;
+}
+li:first-child{
+    font-weight: 900;}
+
+li:nth-child(4){ 
+    font-style: italic;
+}
+li:nth-child(even){ 
+    background-color: black;
+}
+li:nth-child(odd){ 
+    background-color: grey;
+}
+li:nth-child(even){ 
+    font-style: italic;
+}
+
+ul{
+    color: red;
+}
+/* Css properties and values */
+/* Color */
+h3.pnv{
+color: red;
+background-color: black;
+}
+.section-content{
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTXHAdECCUJjyj-GOLB9dnHlCmFkstbOgLWA&usqp=CAU);
+background-position: center;
+height: 300px;
+background-size: cover;
+
+}
+.anothr{
+    background: linear-gradient(red,blue);
+   height: 50px;
+}
